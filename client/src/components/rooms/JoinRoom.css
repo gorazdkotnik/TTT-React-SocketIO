@@ -1,0 +1,51 @@
+.join-room-container {
+  margin: 5rem 0;
+}
+
+.join-room-title {
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  margin: 0 0 1rem 0;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.form-control label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  background: transparent;
+  color: var(--primary-color);
+  outline: none;
+}
+
+.form-control + button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.25rem;
+  margin: 2rem 0;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-control + button:hover {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}

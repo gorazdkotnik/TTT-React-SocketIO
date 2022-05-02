@@ -1,0 +1,52 @@
+.cell {
+  width: 225px;
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.cell:hover {
+  background-color: var(--primary-color);
+  opacity: 0.8;
+  color: var(--secondary-color);
+}
+
+.top-row {
+  border-top: none;
+}
+
+.bottom-row {
+  border-bottom: none;
+}
+
+.left-cell {
+  border-left: none;
+}
+
+.right-cell {
+  border-right: none;
+}
+
+@media (max-width: 768px) {
+  .cell {
+    width: 175px;
+    height: 175px;
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+  }
+}

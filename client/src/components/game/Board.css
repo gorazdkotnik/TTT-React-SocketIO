@@ -1,0 +1,20 @@
+.board {
+  width: 100%;
+  height: 100%;
+  margin: 5rem 0;
+}
+
+.player-stopper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  cursor: default;
+}
+
+.info-text {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
